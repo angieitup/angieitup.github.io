@@ -8,7 +8,7 @@
 body {
     font-family: Arial, sans-serif;
     background-color: #4A77FF;
-    padding: 20px;
+    padding: 0px;
 }
 /* Navigation Bar Container */
 .navbar {
@@ -17,8 +17,18 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-bottom: 20px;
-    border-radius: 20px;
+    margin-bottom: 0px;
+    border-radius: 0px;
+}
+
+.section {
+padding: 50px;
+
+text-align: center;
+    justify-content: center;
+    align-items: center;
+    color:white;
+
 }
 
 /* Logo Styling */
@@ -54,14 +64,14 @@ body {
 }
 /* Hero Section with Image Background */
 .hero-section {
-    background-image: url('your-background-image.jpg');
+    background-image: url('hero2.png');
     background-size: cover;
     background-position: center;
     height: 600px;
     display: flex;
     justify-content: center;
     align-items: center;
-    color: black;
+    color: white;
     text-align: center;
     position: relative;
     border-radius: 0px;
@@ -69,6 +79,13 @@ body {
 }
 /* Content Section Layout */
 .content {
+    background-image: url('food-image.png');
+    background-size: cover;
+    background-position: center;
+     height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 100%;
     display: flex;
     justify-content: center;
@@ -76,6 +93,8 @@ body {
     gap: 50px;
     padding-bottom: 60px;
     flex-wrap: wrap;
+    text-align: center;
+    
 }
 
 /* Image Box Styling */
@@ -84,22 +103,109 @@ body {
     height: 400px;
     border-radius: 20px;
     object-fit: cover;
+     image-position: center;
 }
+
 
 /* Text Module Styling */
 .text-module {
     max-width: 400px;
     text-align: left;
+    
 }
 
 .text-module h2 {
     font-size: 28px;
     margin-bottom: 15px;
-    color: #333;
+    color: white;
 }
 
 .text-module p {
     font-size: 16px;
     line-height: 1.6;
-    color: #666;
+    color: white;
 }
+
+.text-module-2 {
+max-width: 400px;
+    text-align: left;
+color: white;
+
+
+
+}
+
+.menu {
+padding: 50px;
+
+text-align: center;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.reservation {
+padding: 50px;
+
+text-align: center;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.appointment {
+padding: 50px;
+
+text-align: left;
+    justify-content: left;
+    align-items: left;
+    color: white;
+
+
+
+}
+
+
+.About {
+padding: 50px;
+
+text-align: center;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+
+.Contact {
+padding: 50px;
+
+text-align: center;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+
+.Contact-Info {
+padding: 50px;
+
+text-align: left;
+    justify-content: left;
+    align-items: left;
+    color: white; 
+}
+
+
+.hero-section-2 {
+    background-image: url('about-owner.png');
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+    position: relative;
+    border-radius: 0px;
+    margin-bottom: 0px;
