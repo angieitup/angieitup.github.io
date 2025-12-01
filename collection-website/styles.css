@@ -129,3 +129,12 @@ text-align: center;
     object-fit: cover;
 
 }
+
+
+.image-box-base img {
+    width: 600px;
+    height: 600px;
+    border-radius: 20px;
+    object-fit: cover;
+
+}
