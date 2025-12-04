@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    padding: 20px;
+}
+
+/* Navigation Bar Container */
+.navbar {
+    background-color: #000;
+    padding: 15px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    border-radius: 20px;
+}
+
+
+}
+
+/* Navigation Menu List */
+.navbar ul {
+    list-style-type: none;
+    display: flex;
+    gap: 30px;
+}
+
+.navbar li {
+    display: inline;
+}
+
+/* Navigation Links */
+.navbar a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    transition: all 0.3s ease;
+}
+
+/* Hover Effect for Navigation Links */
+.navbar a:hover {
+    color: #ffa500;
+}
